@@ -50,6 +50,7 @@
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(269, 22);
             this.textboxusername.TabIndex = 1;
+            this.textboxusername.TextChanged += new System.EventHandler(this.textboxusername_TextChanged);
             // 
             // label2
             // 
@@ -66,6 +67,7 @@
             this.textboxmatkhau.Name = "textboxmatkhau";
             this.textboxmatkhau.Size = new System.Drawing.Size(266, 22);
             this.textboxmatkhau.TabIndex = 3;
+            this.textboxmatkhau.TextChanged += new System.EventHandler(this.textboxmatkhau_TextChanged);
             // 
             // btnlogin
             // 
@@ -75,6 +77,7 @@
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
